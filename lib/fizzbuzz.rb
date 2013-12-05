@@ -7,7 +7,9 @@ class Calculator
 		elsif num == 3
 			return "fizz"	
 		elsif num == 4
-			return 4			
+			return 4	
+		elsif num == 5
+		 	return "buzz"			
 		end		
 	end
 end
