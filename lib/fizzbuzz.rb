@@ -1,7 +1,7 @@
 class Calculator
 	def calculate (num)
 		if num == 1
-			return 1
+		    return 1
 		elsif num == 2
 			return 2
 		elsif num == 3
@@ -9,7 +9,9 @@ class Calculator
 		elsif num == 4
 			return 4	
 		elsif num == 5
-		 	return "buzz"			
+		 	return "buzz"
+		elsif num == 6
+			return "fizz"			
 		end		
 	end
 end
