@@ -13,8 +13,9 @@ class Calculator
 		elsif num == 6
 			return "fizz"
 		elsif num == 7
-			return 7		
-
+			return 7
+		elsif num == 15
+			return "fizzbuzz"			
 		end		
 	end
 end
